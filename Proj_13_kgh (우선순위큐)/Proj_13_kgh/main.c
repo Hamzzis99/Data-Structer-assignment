@@ -278,6 +278,8 @@ int main(void)
     char* str2 = "11111111111";  // 디코딩할 문자열 2
     huffman_decode(head, str2);  // 문자열 2 디코딩
 
+
+
     destroy_tree(head);  // 허프만 트리 제거
     return 0;
 }
