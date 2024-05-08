@@ -75,6 +75,7 @@ void deque_print(DequeType* q) {
 		} while (i != q->front);
 	}
 	printf("\n");
+	prontf("Test");
 }
 
 
